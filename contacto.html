@@ -8,28 +8,51 @@
 <body>
     <header>
         <center>
-            <img src="imagenes/LOGO 2.png" style="width:10%;" >
+
+            <img src="imagenes/LOGO 2.png" style="width:200px;">
             <h1 style="color: darkgreen;" >El Blog del Electricista</h1>
              <table >
-            <td style="height: auto;" style="color: darkgreen;"><a href="index.html">Inicio</a></td>
-            <td style="height: auto;" style="color: darkgreen;"><a href="historia.html">Historia</a></td>
-            <td style="height: auto;" style="color: darkgreen;"><a href="contacto.html">Contacto</a></td>
-    </table>
-</center>
+            <td  style="color: darkgreen;"><a href="index.html">Inicio |</a></td>
+            <td  style="color: darkgreen;"><a href="historia.html">Historia |</a></td>
+            <td  style="color: darkgreen;"><a href="contacto.html">Contacto</a></td>
+            </table>
+        </center>
+
     </header>
     
     <main>
-        <h2>Bienvenidos a la plataforma de negocios de El Blog del Electrcista</h2>
-        <p>Este espacio tiene el objetivo de conectar a profesionales de la industria de la construcción </p>
-        <img src="imagenes/construccion1.jpg">
-        <br>
-        <h3>Conecta con profesionales fabricantes, distribuidores y contratistas en un solo lugar</h3>
-        <img src="imagenes/construccion2.webp">
+    <center>
+      <h1>¿Quieres unirte?</h1>
+      <p>Registrate ahora</p>
+      <form action="BDD_FORM1"></form>
+      <label for="Nombre">Nombre</label>
+      <input name="Nombre" type="text" placeholder="Nombre">
+  <br>
+      <label for="Apellido">Apellido</label>
+      <input name="Apellido" type="text" placeholder="Apellido" maxlength="20">
+      <br>
+      <label for="email">Correo</label>
+      <input name="email" type="email" placeholder="email aquí">
+      <br><br>
+      <label for="Comentarios Aquí">Comentarios:</label>
+      <br>
+      <textarea name="comentarios" id="comentarios" placeholder="Comentarios aquí " rows="10 " cols="50"></textarea>
+      <br>
+      
+      <button type="submit" style="color: #23939561;">Enviar</button>
+      <br><br>
+
+    </center>
+
+
 
     </main>
+    
     <footer>
+        <center>
         <h4>Derechos Reservados</h4>
         <h5>El Blog del Electricista</h5>
+         </center>
     </footer>
     
 </body>
